@@ -16,12 +16,6 @@ class Stack:
             value = self.array.pop()
             print(f"The value '{value}' will be removed of stack.", self.array, sep="\n")
 
-    def fifo(self):
-        index = 0
-        while(self.array):
-            value = self.array.pop(index)
-            print(f"The value '{value}' will be removed of stack.", self.array, sep="\n")
-
 
 if __name__ == "__main__":
     stack  = Stack(10)
